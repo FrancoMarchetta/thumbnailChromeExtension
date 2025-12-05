@@ -1,11 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>thumbnail Parasite</title>
-</head>
-<body>
-    
-</body>
-</html>
+<main>
+    <h1>Choose an image(png)</h1>
+    <div>
+        <input type="file" id="fileInput">
+        <button id="submit">Submit</button>
+    </div>
+
+</main>
+
+<style>
+    main {
+        border: solid black 3px;
+        padding: 20px;
+        max-width: 500px;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+
+            button {
+                width: 60%;
+            }
+        }
+    }
+</style>
