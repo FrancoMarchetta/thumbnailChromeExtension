@@ -1,0 +1,13 @@
+{
+    "name": "Thumbnail Parasite",
+    "description": "This extension will add an image to the youtube thumbnails",
+    "version": "1.0",
+    "manifest_version": 1,
+    "icons": {
+        "128": "icon128.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon128.png"
+    }
+}
